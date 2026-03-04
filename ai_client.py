@@ -10,7 +10,7 @@ class AIClient:
     def __init__(self):
 
         # Use Gemini 2.5 Flash
-        self.model = genai.GenerativeModel("gemini-1.5-flash-latest")
+        self.model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 
     def chat_completion(self, system_prompt, prompt):
